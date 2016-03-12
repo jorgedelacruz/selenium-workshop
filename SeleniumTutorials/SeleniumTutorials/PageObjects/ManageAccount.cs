@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
-using SeleniumTutorials.Common;
+using SeleniumHelpers.Common;
 
 namespace SeleniumTutorials.PageObjects
 {

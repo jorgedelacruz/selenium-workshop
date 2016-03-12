@@ -1,9 +1,9 @@
 ﻿using OpenQA.Selenium.Support.UI;
 using System;
 
-namespace SeleniumTutorials.Common
+namespace SeleniumHelpers.Common
 {
-    public class PageObject
+    public abstract class PageObject
     {
         public WebDriverWait Wait;
     }

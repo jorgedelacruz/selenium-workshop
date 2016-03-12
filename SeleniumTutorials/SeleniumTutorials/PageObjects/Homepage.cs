@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
+using SeleniumHelpers.Common;
 using SeleniumTutorials.Common;
 
 namespace SeleniumTutorials.PageObjects
@@ -18,11 +19,11 @@ namespace SeleniumTutorials.PageObjects
         [FindsBy(How = How.Id)]
         public IWebElement btnManageAccount { get; set; }
 
-        public ManageAccount GoToManageAccount()
-        {
-            txtLogedUserCarret.Click();
-            btnManageAccount.Click();
-            return WebDriver.GetPage<ManageAccount>();
-        }
+        //public ManageAccount GoToManageAccount()
+        //{
+        //    txtLogedUserCarret.Click();
+        //    btnManageAccount.Click();
+        //    return MyDriver.ManageAccount;
+        //}
     }
 }

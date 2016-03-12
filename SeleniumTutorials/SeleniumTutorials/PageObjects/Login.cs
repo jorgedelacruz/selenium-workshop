@@ -1,5 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
+using SeleniumHelpers.Common;
 using SeleniumTutorials.Common;
 using SeleniumTutorials.DataTypes;
 
@@ -26,7 +27,7 @@ namespace SeleniumTutorials.PageObjects
         public Homepage SubmitLoginForm()
         {
             btnLogin.Click();
-            return WebDriver.GetPage<Homepage>();
+            return MyDriver.GetPage<Homepage>();
         }
     }
 }
