@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTutorials", "SeleniumTutorials\SeleniumTutorials.csproj", "{CA013719-BF7C-4AD3-8744-26BF44282560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawSelenium", "RawSelenium\RawSelenium.csproj", "{F210E27F-7F24-44AE-8BB1-2DAF6F41B46A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jorgedelacruz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SeleniumTutorials\\SeleniumTutorials.csproj
+		SccProjectName1 = SeleniumTutorials
+		SccLocalPath1 = SeleniumTutorials
+		SccProjectUniqueName2 = RawSelenium\\RawSelenium.csproj
+		SccProjectName2 = RawSelenium
+		SccLocalPath2 = RawSelenium
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA013719-BF7C-4AD3-8744-26BF44282560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA013719-BF7C-4AD3-8744-26BF44282560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA013719-BF7C-4AD3-8744-26BF44282560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA013719-BF7C-4AD3-8744-26BF44282560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F210E27F-7F24-44AE-8BB1-2DAF6F41B46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F210E27F-7F24-44AE-8BB1-2DAF6F41B46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F210E27F-7F24-44AE-8BB1-2DAF6F41B46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F210E27F-7F24-44AE-8BB1-2DAF6F41B46A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
